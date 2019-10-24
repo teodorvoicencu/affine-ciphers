@@ -1,17 +1,8 @@
 // @flow
 import * as React from 'react';
 
-import './encryption.scss';
 import Section from '../section/Section';
-
-// The ASCII value for 'a'.
-const aValue = 97;
-
-// Numbers of characters in the program alphabet.
-const alphabet = 27;
-
-//  The "supposed" ASCII value for space.
-const spaceValue = 123;
+import { alphabet, alphabetSize } from '../constants/Constants';
 
 /**
  * Encrypts a single character.
@@ -21,9 +12,11 @@ const spaceValue = 123;
  * @returns {string} - the encrypted character.
  */
 function encryptChar(char: string, a: number, b: number): string {
-    const code = char === ' ' ? spaceValue : char.charCodeAt(0);
-    const encryptedValue = (((code - aValue) * a + b) % alphabet) + aValue;
-    return encryptedValue === spaceValue ? ' ' : String.fromCharCode(encryptedValue);
+    const code = char === ' ' ? alphabet._ : alphabet[char];
+    const encryptedValue = (code * a + b) % alphabetSize;
+    return Object.keys(alphabet)[encryptedValue] === '_'
+        ? ' '
+        : Object.keys(alphabet)[encryptedValue];
 }
 
 /**

@@ -4,7 +4,9 @@
     <list default="true" id="5ed86b1c-a92c-4740-98e5-cbb43ef785fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/encryption/Decryption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/encryption/Decryption.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/encryption/encryption.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +94,7 @@
       <workItem from="1570723836787" duration="2244000" />
       <workItem from="1571317823902" duration="3346000" />
       <workItem from="1571768030982" duration="102000" />
-      <workItem from="1571845600936" duration="16886000" />
+      <workItem from="1571845600936" duration="18185000" />
     </task>
     <task id="LOCAL-00001" summary="Encrypt and decrypt the text and display them">
       <created>1571917321524</created>
@@ -108,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571918812684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add decryption textarea">
+      <created>1571934192680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571934192680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Encrypt and decrypt the text and display them" />
     <MESSAGE value="Update README file and fix flow errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README file and fix flow errors" />
+    <MESSAGE value="Add decryption textarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add decryption textarea" />
   </component>
 </project>

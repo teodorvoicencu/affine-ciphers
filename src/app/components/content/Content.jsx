@@ -6,6 +6,7 @@ import Input from '../input/Input';
 import './content.scss';
 import Encryption from '../encryption/Encryption';
 import Decryption from '../encryption/Decryption';
+import { alphabetSize } from '../constants/Constants';
 
 /**
  * Compute th greatest common divider of two numbers.
@@ -41,7 +42,7 @@ const Content = (): React.Node => {
                 setValue={setDecryptText}
                 placeHolder={'Insert the text to be decrypted ...'}
             />
-            {a !== '' && gcd(Number(a), 27) !== 1 && (
+            {a !== '' && gcd(Number(a), alphabetSize) !== 1 && (
                 <p className="warning">{`${a} is not co-prime with 27`}</p>
             )}
             <div className="variables">
@@ -58,10 +59,10 @@ const Content = (): React.Node => {
                     setValue={setB}
                 />
             </div>
-            {gcd(Number(a), 27) === 1 && b !== '' && encryptText !== '' && (
+            {gcd(Number(a), alphabetSize) === 1 && b !== '' && encryptText !== '' && (
                 <Encryption a={Number(a)} b={Number(b)} text={encryptText} />
             )}
-            {gcd(Number(a), 27) === 1 && b !== '' && decryptText !== '' && (
+            {gcd(Number(a), alphabetSize) === 1 && b !== '' && decryptText !== '' && (
                 <Decryption a={Number(a)} b={Number(b)} text={decryptText} />
             )}
         </div>

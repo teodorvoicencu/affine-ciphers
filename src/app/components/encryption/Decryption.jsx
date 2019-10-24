@@ -2,15 +2,7 @@
 import * as React from 'react';
 
 import Section from '../section/Section';
-
-// The ASCII value for 'a'.
-const aValue = 97;
-
-// Numbers of characters in the program alphabet.
-const alphabet = 27;
-
-//  The "supposed" ASCII value for space.
-const spaceValue = 123;
+import { alphabet, alphabetSize } from '../constants/Constants';
 
 // Modulo in javascript returns weird stuff if the value is negative.
 // This is a known "bug" so we have to define an alternative to it.
@@ -24,7 +16,7 @@ function modulo(x: number, n: number) {
 function modInverse(value: number): number {
     // I assign this values to comply with eslint check
     let a = value;
-    let m = alphabet;
+    let m = alphabetSize;
 
     const m0 = m;
     let y = 0;
@@ -63,10 +55,12 @@ function modInverse(value: number): number {
  * @returns {string} - the decrypted character.
  */
 function decryptChar(char: string, aInverse: number, b: number): string {
-    let code = char === ' ' ? spaceValue : char.charCodeAt(0);
-    code = aInverse * (code - b - aValue);
-    const decryptedValue = modulo(code, alphabet) + aValue;
-    return decryptedValue === spaceValue ? ' ' : String.fromCharCode(decryptedValue);
+    let code = char === ' ' ? alphabet._ : alphabet[char];
+    code = aInverse * (code - b);
+    const decryptedValue = modulo(code, alphabetSize);
+    return Object.keys(alphabet)[decryptedValue] === '_'
+        ? ' '
+        : Object.keys(alphabet)[decryptedValue];
 }
 
 /**
