@@ -51,7 +51,7 @@ function encrypt(value: string, a: number, b: number): string {
  * Compute the mod inverse of value using extended euclidean algorithm.
  */
 function modInverse(value: number): number {
-    // I assign this values to complain with eslint check
+    // I assign this values to comply with eslint check
     let a = value;
     let m = alphabet;
 

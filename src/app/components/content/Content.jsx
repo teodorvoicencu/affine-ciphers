@@ -12,14 +12,11 @@ import Encryption from '../encryption/Encryption';
  * of characters in the program alphabet.
  * Alphabet = [a, b, ... , z, 'space'] - total 27 characters
  */
-function gcd(a: number, b: number): number {
-    if (a !== '' && b !== '') {
-        if (b === 0) {
-            return a;
-        }
-        return gcd(b, a % b);
+function gcd(a: number, m: number): number {
+    if (m === 0) {
+        return a;
     }
-    return 0;
+    return gcd(m, a % m);
 }
 
 /**
@@ -37,7 +34,7 @@ const Content = (): React.Node => {
                 setValue={setText}
                 placeHolder={'Insert the text to be encrypted ...'}
             />
-            {a !== '' && gcd(a, 27) !== 1 && (
+            {a !== '' && gcd(Number(a), 27) !== 1 && (
                 <p className="warning">{`${a} is not co-prime with 27`}</p>
             )}
             <div className="variables">
@@ -54,7 +51,9 @@ const Content = (): React.Node => {
                     setValue={setB}
                 />
             </div>
-            {gcd(a, 27) === 1 && b !== '' && <Encryption a={Number(a)} b={Number(b)} text={text} />}
+            {gcd(Number(a), 27) === 1 && b !== '' && (
+                <Encryption a={Number(a)} b={Number(b)} text={text} />
+            )}
         </div>
     );
 };

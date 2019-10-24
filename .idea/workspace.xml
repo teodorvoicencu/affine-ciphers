@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ed86b1c-a92c-4740-98e5-cbb43ef785fa" name="Default Changelist" comment="Encrypt and decrypt the text and display them">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/button/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/content/Content.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/content/content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/encryption/encryption.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/input/Input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/input/input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/label/Label.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/label/label.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section/Section.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/section/section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/textarea/Textarea.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/textarea/textarea.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5ed86b1c-a92c-4740-98e5-cbb43ef785fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,8 +94,16 @@
       <workItem from="1570723836787" duration="2244000" />
       <workItem from="1571317823902" duration="3346000" />
       <workItem from="1571768030982" duration="102000" />
-      <workItem from="1571845600936" duration="13130000" />
+      <workItem from="1571845600936" duration="14560000" />
     </task>
+    <task id="LOCAL-00001" summary="Encrypt and decrypt the text and display them">
+      <created>1571917321524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571917321524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

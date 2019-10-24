@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Affine Ciphers
+
+This project is intended to create a minimal react app that encrypts a text and decrypts it back
+using affine ciphers.
+You must provide the **text** to be encrypted, a value **A** which must be co-prime with the number of
+characters in the program's alphabet, and a value **B**.
+
+#Alphabet
+
+The text you provide will be automatically converted to lowercase and then be encrypted and decrypted back.
+The alphabet consists of the letters `a -> z` and `\s`, in total there are 27 characters.
+
+#Encrypting
+
+To encrypt a character `x` we use the formula `E(x)=( A * x + B ) mod M` where `A` and `B` are provided 
+to the program by the user and `M` represents the total number of characters in the alphabet.
+
+#Decrypting
+
+To decrypt a character `x` we use the formula `D(x)=A' * ( x - B) mod M` where `B` is provided 
+to the program by the user, `A'` represents the modular multiplicative inverse of `A mod M` 
+and `M` represents the total number of characters in the alphabet.
 
 ## Available Scripts
 
@@ -37,32 +58,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `yarn fix`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lints and prettifies the code. This command is recommended to be run before each commit to keep the 
+code nicely aligned and check for problems with it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn flow`
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Checks for type error in the code. The program is written using `JSX` so it becomes easier to
+comply with the `JSX` code conduit. 
