@@ -1,21 +1,21 @@
-#Affine Ciphers
+# Affine Ciphers
 
 This project is intended to create a minimal react app that encrypts a text and decrypts it back
 using affine ciphers.
 You must provide the **text** to be encrypted, a value **A** which must be co-prime with the number of
 characters in the program's alphabet, and a value **B**.
 
-#Alphabet
+## Alphabet
 
 The text you provide will be automatically converted to lowercase and then be encrypted and decrypted back.
 The alphabet consists of the letters `a -> z` and `\s`, in total there are 27 characters.
 
-#Encrypting
+## Encrypting
 
 To encrypt a character `x` we use the formula `E(x)=( A * x + B ) mod M` where `A` and `B` are provided 
 to the program by the user and `M` represents the total number of characters in the alphabet.
 
-#Decrypting
+## Decrypting
 
 To decrypt a character `x` we use the formula `D(x)=A' * ( x - B) mod M` where `B` is provided 
 to the program by the user, `A'` represents the modular multiplicative inverse of `A mod M` 
