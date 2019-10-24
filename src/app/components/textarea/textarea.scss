@@ -1,0 +1,27 @@
+@import '../../../index';
+
+.textAreaContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $contentMargin;
+}
+
+.textArea {
+    width: 100%;
+    display: flex;
+    font-size: $fontSize;
+    color: $textColor;
+    background-color: $inputColor;
+    border: unset;
+    border-radius: calc(#{$borderRadius} / 2);
+    outline: none;
+    padding: $contentPadding $contentPadding;
+    height: 4.8rem;
+    text-align: start;
+}
+
+.textArea::-webkit-scrollbar {
+    display: none;
+}

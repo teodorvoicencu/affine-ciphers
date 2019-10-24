@@ -1,0 +1,22 @@
+@import '../../../index';
+
+.button {
+    background-color: $buttonColor;
+    color: $textColor;
+    font-size: $fontSize;
+    border: unset;
+    outline: unset;
+    padding: 0 $contentPadding;
+    height: 2.4rem;
+    border-radius: calc(#{$borderRadius} / 10);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: darken($buttonColor, 25%);
+}
+
+.button:active {
+    background-color: $buttonColor;
+}

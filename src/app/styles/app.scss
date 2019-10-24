@@ -1,0 +1,21 @@
+@import '../../index';
+
+.app {
+    text-align: center;
+}
+
+.appContent {
+    background-color: $baseColor;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.appTitle {
+    display: flex;
+    justify-self: flex-start;
+    font-size: $titleSize;
+    color: $textColor;
+}

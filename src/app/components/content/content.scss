@@ -1,0 +1,25 @@
+@import '../../../index';
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: $contentMargin;
+}
+
+.variables {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.warning {
+    font-size: $fontSize;
+    color: $warningColor;
+    text-align: center;
+    margin-top: unset;
+}

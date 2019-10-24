@@ -1,11 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ed86b1c-a92c-4740-98e5-cbb43ef785fa" name="Default Changelist" comment="Encrypt and decrypt the text and display them">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/Content.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/content/content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/encryption/encryption.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/input/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/input/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/label/Label.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/label/label.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/section/Section.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/section/section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/textarea/Textarea.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/textarea/textarea.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1S1Gl1yyrRmCJuBbRjZZfuyrBy6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Sem 4/ISS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Beast\Desktop\UBB\Sem5\Crypto\lab_1\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Beast\Desktop\UBB\Sem5\Crypto\lab_1\src\app\components\content" />
+      <recent name="C:\Users\Beast\Desktop\UBB\Sem5\Crypto\lab_1\src\app\components" />
+      <recent name="C:\Users\Beast\Desktop\UBB\Sem5\Crypto\lab_1\src\app\styles" />
+      <recent name="C:\Users\Beast\Desktop\UBB\Sem5\Crypto\lab_1\src\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ed86b1c-a92c-4740-98e5-cbb43ef785fa" name="Default Changelist" comment="" />
+      <created>1570723835469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570723835469</updated>
+      <workItem from="1570723836787" duration="2244000" />
+      <workItem from="1571317823902" duration="3346000" />
+      <workItem from="1571768030982" duration="102000" />
+      <workItem from="1571845600936" duration="13130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Encrypt and decrypt the text and display them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encrypt and decrypt the text and display them" />
   </component>
 </project>

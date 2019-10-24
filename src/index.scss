@@ -1,0 +1,30 @@
+// Colors
+$baseColor: #282c34;
+$textColor: white;
+$inputColor: #09d3ac;
+$labelColor: orange;
+$buttonColor: #61dbfb;
+$warningColor: red;
+
+// Font
+$fontSize: 1.4rem;
+$titleSize: 2.4rem;
+
+// Sizes
+$contentMargin: 2.4rem;
+$contentPadding: 1.2rem;
+
+// Border
+$borderRadius: 5rem;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

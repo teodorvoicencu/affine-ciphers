@@ -1,0 +1,22 @@
+@import '../../../index';
+
+.sectionContainer {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sectionText {
+    font-size: $fontSize;
+    color: $labelColor;
+    text-align: start;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-self: flex-start;
+    font-size: calc(1.285 * #{$fontSize});
+    color: $textColor;
+}
