@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ed86b1c-a92c-4740-98e5-cbb43ef785fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/encryption/Encryption.jsx" afterDir="false" />
     </list>
@@ -45,6 +42,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Beast\Desktop\UBB\Sem5\Crypto\lab_1\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -94,7 +92,7 @@
       <workItem from="1570723836787" duration="2244000" />
       <workItem from="1571317823902" duration="3346000" />
       <workItem from="1571768030982" duration="102000" />
-      <workItem from="1571845600936" duration="14560000" />
+      <workItem from="1571845600936" duration="16886000" />
     </task>
     <task id="LOCAL-00001" summary="Encrypt and decrypt the text and display them">
       <created>1571917321524</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571917321524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update README file and fix flow errors">
+      <created>1571918812684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571918812684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Encrypt and decrypt the text and display them" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encrypt and decrypt the text and display them" />
+    <MESSAGE value="Update README file and fix flow errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README file and fix flow errors" />
   </component>
 </project>

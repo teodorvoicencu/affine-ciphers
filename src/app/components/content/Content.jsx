@@ -5,6 +5,7 @@ import Textarea from '../textarea/Textarea';
 import Input from '../input/Input';
 import './content.scss';
 import Encryption from '../encryption/Encryption';
+import Decryption from '../encryption/Decryption';
 
 /**
  * Compute th greatest common divider of two numbers.
@@ -23,16 +24,22 @@ function gcd(a: number, m: number): number {
  * Main container of the web page.
  */
 const Content = (): React.Node => {
-    const [text, setText] = React.useState('');
+    const [encryptText, setEncryptText] = React.useState('');
+    const [decryptText, setDecryptText] = React.useState('');
     const [a, setA] = React.useState('');
     const [b, setB] = React.useState('');
 
     return (
         <div className="container">
             <Textarea
-                value={text}
-                setValue={setText}
+                value={encryptText}
+                setValue={setEncryptText}
                 placeHolder={'Insert the text to be encrypted ...'}
+            />
+            <Textarea
+                value={decryptText}
+                setValue={setDecryptText}
+                placeHolder={'Insert the text to be decrypted ...'}
             />
             {a !== '' && gcd(Number(a), 27) !== 1 && (
                 <p className="warning">{`${a} is not co-prime with 27`}</p>
@@ -51,8 +58,11 @@ const Content = (): React.Node => {
                     setValue={setB}
                 />
             </div>
-            {gcd(Number(a), 27) === 1 && b !== '' && (
-                <Encryption a={Number(a)} b={Number(b)} text={text} />
+            {gcd(Number(a), 27) === 1 && b !== '' && encryptText !== '' && (
+                <Encryption a={Number(a)} b={Number(b)} text={encryptText} />
+            )}
+            {gcd(Number(a), 27) === 1 && b !== '' && decryptText !== '' && (
+                <Decryption a={Number(a)} b={Number(b)} text={decryptText} />
             )}
         </div>
     );
